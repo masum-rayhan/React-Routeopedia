@@ -44,19 +44,24 @@ const Header = () => {
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
+                    <Link class="dropdown-item" to="/product">
+                      Product
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
+                    <Link class="dropdown-item" to="/product/create">
+                      Create Product
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
+                    <Link class="dropdown-item" to="/product/details">
+                      Product Details
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item" to="/product/list">
+                      Product List
+                    </Link>
                   </li>
                 </ul>
               </li>
